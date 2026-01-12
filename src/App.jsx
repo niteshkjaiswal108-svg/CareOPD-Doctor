@@ -5,7 +5,7 @@ import DoctorLogin from "./pages/Doctor/Auth/DoctorLogin";
 import DoctorDashboard from "./pages/Doctor/DoctorDashboard";
 import DoctorAppointment from "./pages/Doctor/DoctorAppointment";
 import DoctorProfile from "./pages/Doctor/DoctorProfile";
-import DoctorProtectedRoute from "./context/DoctorProtectedRoute";
+import DoctorProtectedRoute from "./context/doctorProtectedRoute";
 
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
