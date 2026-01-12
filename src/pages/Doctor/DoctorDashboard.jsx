@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react";
-import { DoctorContext } from "../../Context/DoctorContext";
+import { DoctorContext } from "../../context/doctorContext";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navbar from "../../components/Navbar";
 import Sidebar from "../../components/Sidebar";

@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useMemo } from 'react'
-import { DoctorContext } from '../../Context/DoctorContext'
+import { DoctorContext } from '../../context/doctorContext'
 import { AppContext } from '../../context/appContext'
 import { assets } from '../../assets_admin/assets'
 

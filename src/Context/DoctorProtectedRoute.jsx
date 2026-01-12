@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Navigate } from "react-router-dom";
-import { DoctorContext } from "./DoctorContext";
+import { DoctorContext } from "./doctorContext";
 
 const DoctorProtectedRoute = ({ children }) => {
   const dToken = localStorage.getItem("dToken"); // only check doctor token

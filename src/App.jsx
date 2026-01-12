@@ -5,12 +5,12 @@ import DoctorLogin from "./pages/Doctor/Auth/DoctorLogin";
 import DoctorDashboard from "./pages/Doctor/DoctorDashboard";
 import DoctorAppointment from "./pages/Doctor/DoctorAppointment";
 import DoctorProfile from "./pages/Doctor/DoctorProfile";
-import DoctorProtectedRoute from "./Context/DoctorProtectedRoute";
+import DoctorProtectedRoute from "./context/DoctorProtectedRoute";
 
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useContext } from "react";
-import { DoctorContext } from "./Context/DoctorContext";
+import { DoctorContext } from "./context/doctorContext";
 
 export default function App() {
   const { dToken } = useContext(DoctorContext);

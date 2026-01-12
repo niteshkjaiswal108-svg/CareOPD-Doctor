@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { DoctorContext } from "../../Context/DoctorContext";
+import { DoctorContext } from "../../context/doctorContext";
 import { AppContext } from "../../context/appContext";
 
 const DoctorProfile = () => {

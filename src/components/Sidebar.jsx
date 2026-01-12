@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { assets } from "../assets_admin/assets";
-import { DoctorContext } from "../Context/DoctorContext";
+import { DoctorContext } from "../context/doctorContext";
 
 const Sidebar = () => {
   const { dToken } = useContext(DoctorContext);

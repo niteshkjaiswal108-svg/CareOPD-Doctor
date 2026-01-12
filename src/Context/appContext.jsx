@@ -2,7 +2,7 @@ import { createContext } from "react";
 
 export const AppContext = createContext(null);
 
-const AppContextProvider = ({ children }) => {
+export const AppContextProvider = ({ children }) => {
 
   const calculateAge = (dob) => {
     const today = new Date();
@@ -32,5 +32,3 @@ const AppContextProvider = ({ children }) => {
     </AppContext.Provider>
   );
 };
-
-export default AppContextProvider;

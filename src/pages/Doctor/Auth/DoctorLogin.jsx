@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { DoctorContext } from "../../../Context/DoctorContext";
+import { DoctorContext } from "../../../context/doctorContext";
 import { assets } from "../../../assets_admin/assets";
 
 const DoctorLogin = () => {

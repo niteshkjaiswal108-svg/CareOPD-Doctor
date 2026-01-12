@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { assets } from "../assets_admin/assets";
 import { useNavigate } from "react-router-dom";
-import { DoctorContext } from "../Context/DoctorContext";
+import { DoctorContext } from "../context/doctorContext";
 
 const Navbar = () => {
   const { dToken, setDToken } = useContext(DoctorContext);
